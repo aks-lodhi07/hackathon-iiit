@@ -6,7 +6,11 @@ import base64
 import numpy as np
 import os
 
+<<<<<<< HEAD
 app = Flask(__name__)
+=======
+app = Flask(_name_)
+>>>>>>> de463ba9b9af0694112c2e61adaadd611815a20d
 @app.route('/')
 def home():
     return "Welcome to the Face Detection API!"
@@ -78,5 +82,5 @@ def search_person():
     # Assuming we found at least one person
     return jsonify({'person': faces[0]})  # Return the first detected face for simplicity
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     app.run(debug=True, port=5000)
