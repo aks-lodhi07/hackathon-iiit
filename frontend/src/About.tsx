@@ -16,7 +16,7 @@ const AboutUs = () => {
       name: "Akshat",
       role: "Ai Model Developer",
       image: "/static/images/akshat.jpg",
-      github: "",
+      github: "https://github.com/aks-lodhi07",
     },
     {
       name: "Shivansh",

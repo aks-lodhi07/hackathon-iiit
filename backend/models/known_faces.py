@@ -2,10 +2,9 @@ import face_recognition
 import os
 
 # Load known faces from the static directory
-def load_known_faces(known_faces_dir="./static/"):
+def load_known_faces(known_faces_dir='hackathon-iiit\backend\static'):
     known_face_encodings = []
     known_face_names = []
-
     # Iterate through each image in the static directory
     for filename in os.listdir(known_faces_dir):
         if filename.endswith(".jpg") or filename.endswith(".png"):
