@@ -7,6 +7,11 @@ import numpy as np
 import os
 
 app = Flask(__name__)
+@app.route('/')
+def home():
+    return "Welcome to the Face Detection API!"
+
+
 CORS(app)
 
 # Define the path to save images
